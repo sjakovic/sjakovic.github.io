@@ -35,5 +35,5 @@ And:
 ```
 Type: CNAME
 Name: www
-Value: jakovic.github.io
+Value: sjakovic.github.io
 ``` 
