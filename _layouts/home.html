@@ -1,0 +1,47 @@
+---
+layout: default
+---
+
+<div class="home">
+  
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+
+  <!-- Featured Section -->
+  <section id="featured" class="featured">
+    <h2 class="section-title">Soon...</h2>
+    <!-- <div class="featured-grid">
+      {%- for post in site.posts limit:3 -%}
+        <article class="featured-card">
+          {%- if post.image -%}
+            <div class="featured-image">
+              <img src="{{ post.image | relative_url }}" alt="{{ post.title | escape }}">
+            </div>
+          {%- endif -%}
+          <div class="featured-content">
+            <h3 class="featured-title">
+              <a href="{{ post.url | relative_url }}">
+                {{ post.title | escape }}
+              </a>
+            </h3>
+            {%- if post.description -%}
+              <p class="featured-description">{{ post.description | escape }}</p>
+            {%- endif -%}
+            <div class="featured-meta">
+              <span class="post-date">{{ post.date | date: "%B %-d, %Y" }}</span>
+              {%- if post.categories -%}
+                <span class="post-categories">
+                  {%- for category in post.categories -%}
+                    <span class="category">{{ category }}</span>
+                  {%- endfor -%}
+                </span>
+              {%- endif -%}
+            </div>
+          </div>
+        </article>
+      {%- endfor -%}
+    </div> -->
+  </section>
+
+</div> 
