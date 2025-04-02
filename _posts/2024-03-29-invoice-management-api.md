@@ -17,7 +17,7 @@ Traditional invoice management often involves:
 - No standardized API for integration
 - Complex PDF generation processes
 
-Our solution addresses these challenges by providing a modern, RESTful API that automates invoice management while maintaining flexibility and security.
+This solution addresses these challenges by providing a modern, RESTful API that automates invoice management while maintaining flexibility and security.
 
 ## Key Features
 
@@ -202,3 +202,11 @@ I welcome contributions! Please follow these steps:
 3. Commit your changes (`git commit -m 'Add amazing feature'`)
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Support
+
+For support, please open an issue in the GitHub repository or contact me at [your-email@example.com](mailto:your-email@example.com).
