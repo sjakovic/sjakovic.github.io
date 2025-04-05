@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Building a Robust Invoice Management API with Laravel"
+title: "Building a Simple Invoice Management API with Laravel"
 description: "A deep dive into creating a scalable and secure invoice management system using Laravel, featuring PDF generation, advanced filtering, and comprehensive API documentation."
 date: 2024-03-29
 categories: [Laravel, API, PHP]
