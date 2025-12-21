@@ -1,0 +1,1078 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Process</title>
+    <meta name="description" content="Professional software architecture and development services specializing in API design, system architecture, PHP, Node.js, PostgreSQL, MySQL, NoSQL, and network engineering. Enterprise-grade solutions for businesses across the United States.">
+    <meta name="keywords" content="software architecture, API development, API design, backend development, PHP development, Node.js development, PostgreSQL, MySQL, NoSQL, database engineering, system integration, enterprise software, network engineering, software consulting">
+
+    <!-- SEO Tags -->
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>My Process | Eternia Solutions LLC - Professional Software Architecture &amp; API Development</title>
+<meta name="generator" content="Jekyll v4.3.4" />
+<meta property="og:title" content="My Process" />
+<meta name="author" content="Eternia Solutions LLC" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Professional software architecture and development services specializing in API design, system architecture, PHP, Node.js, PostgreSQL, MySQL, NoSQL, and network engineering. Enterprise-grade solutions for businesses across the United States." />
+<meta property="og:description" content="Professional software architecture and development services specializing in API design, system architecture, PHP, Node.js, PostgreSQL, MySQL, NoSQL, and network engineering. Enterprise-grade solutions for businesses across the United States." />
+<link rel="canonical" href="http://0.0.0.0:4000/process/" />
+<meta property="og:url" content="http://0.0.0.0:4000/process/" />
+<meta property="og:site_name" content="Eternia Solutions LLC - Professional Software Architecture &amp; API Development" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="My Process" />
+<meta name="twitter:site" content="@eterniasolutions" />
+<meta name="twitter:creator" content="@Eternia Solutions LLC" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Eternia Solutions LLC"},"description":"Professional software architecture and development services specializing in API design, system architecture, PHP, Node.js, PostgreSQL, MySQL, NoSQL, and network engineering. Enterprise-grade solutions for businesses across the United States.","headline":"My Process","url":"http://0.0.0.0:4000/process/"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --primary: #6366f1;
+            --primary-light: #818cf8;
+            --accent: #10b981;
+            --accent-alt: #f59e0b;
+            --dark-bg: #0f172a;
+            --dark-surface: #1e293b;
+            --dark-elevated: #334155;
+            --text-primary: #f8fafc;
+            --text-secondary: #cbd5e1;
+            --text-muted: #94a3b8;
+            --border: #334155;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            color: var(--text-primary);
+            line-height: 1.6;
+            background: var(--dark-bg);
+            overflow-x: hidden;
+        }
+
+        .container {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 32px;
+        }
+
+        /* Navigation */
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            background: rgba(15, 23, 42, 0.8);
+            backdrop-filter: blur(20px);
+            border-bottom: 1px solid var(--border);
+            transition: all 0.3s ease;
+        }
+
+        .navbar.scrolled {
+            background: rgba(15, 23, 42, 0.95);
+            box-shadow: 0 4px 24px rgba(0, 0, 0, 0.3);
+        }
+
+        .nav-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 0;
+        }
+
+        .logo {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 1.5rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, var(--primary-light), var(--accent));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-decoration: none;
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 40px;
+            align-items: center;
+        }
+
+        .nav-links a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 0.95rem;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+
+        .nav-links a::after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--primary);
+            transition: width 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            color: var(--text-primary);
+        }
+
+        .nav-links a:hover::after {
+            width: 100%;
+        }
+
+        .nav-cta {
+            background: linear-gradient(135deg, var(--primary), var(--primary-light));
+            color: white !important;
+            padding: 10px 24px;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 12px rgba(99, 102, 241, 0.3);
+        }
+
+        .nav-cta::after {
+            display: none;
+        }
+
+        .nav-cta:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(99, 102, 241, 0.4);
+        }
+
+        .mobile-toggle {
+            display: none;
+            background: none;
+            border: none;
+            color: var(--text-primary);
+            font-size: 1.5rem;
+            cursor: pointer;
+        }
+
+        /* Page Header */
+        .founder-hero, .page-header {
+            padding: 140px 0 80px;
+            text-align: center;
+            background: linear-gradient(135deg, var(--dark-bg) 0%, var(--dark-surface) 100%);
+            border-bottom: 1px solid var(--border);
+        }
+
+        .founder-image-wrapper {
+            margin-bottom: 40px;
+        }
+
+        .founder-image {
+            width: 280px;
+            height: 280px;
+            border-radius: 50%;
+            object-fit: cover;
+            object-position: center 0;
+            border: 5px solid var(--border);
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5),
+                        0 0 0 1px rgba(99, 102, 241, 0.3),
+                        0 0 40px rgba(99, 102, 241, 0.2);
+            transition: all 0.4s ease;
+        }
+
+        .founder-image:hover {
+            transform: scale(1.05);
+            box-shadow: 0 25px 70px rgba(0, 0, 0, 0.6),
+                        0 0 0 1px rgba(99, 102, 241, 0.5),
+                        0 0 60px rgba(99, 102, 241, 0.3);
+        }
+
+        .founder-intro h1, .page-header h1 {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 4rem;
+            font-weight: 700;
+            margin-bottom: 16px;
+            background: linear-gradient(135deg, var(--text-primary) 0%, var(--text-secondary) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .founder-title {
+            font-size: 1.5rem;
+            color: var(--primary-light);
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+
+        .founder-subtitle {
+            font-size: 1.25rem;
+            color: var(--text-secondary);
+        }
+
+        .section-badge {
+            display: inline-block;
+            background: rgba(99, 102, 241, 0.1);
+            color: var(--primary-light);
+            padding: 6px 16px;
+            border-radius: 100px;
+            font-size: 0.875rem;
+            font-weight: 600;
+            margin-bottom: 16px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        /* Founder Story */
+        .founder-story {
+            padding: 120px 0;
+        }
+
+        .story-content {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .story-section {
+            margin-bottom: 64px;
+        }
+
+        .story-section h2 {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 24px;
+            color: var(--text-primary);
+        }
+
+        .story-section p {
+            font-size: 1.25rem;
+            color: var(--text-secondary);
+            line-height: 1.8;
+            margin-bottom: 24px;
+        }
+
+        .story-section a {
+            color: var(--primary-light);
+            text-decoration: none;
+            border-bottom: 1px solid var(--primary);
+            transition: all 0.3s ease;
+        }
+
+        .story-section a:hover {
+            color: var(--accent);
+            border-color: var(--accent);
+        }
+
+        .expertise-highlight {
+            background: linear-gradient(135deg, var(--dark-surface) 0%, var(--dark-elevated) 100%);
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            padding: 60px;
+            margin: 80px 0;
+        }
+
+        .expertise-highlight h2 {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 48px;
+            text-align: center;
+            color: var(--text-primary);
+        }
+
+        .expertise-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 32px;
+        }
+
+        .expertise-item {
+            text-align: center;
+        }
+
+        .expertise-icon {
+            font-size: 2.5rem;
+            margin-bottom: 16px;
+        }
+
+        .expertise-item h3 {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-bottom: 12px;
+            color: var(--text-primary);
+        }
+
+        .expertise-item p {
+            font-size: 1rem;
+            color: var(--text-muted);
+            line-height: 1.6;
+        }
+
+        .founder-cta {
+            display: flex;
+            gap: 16px;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 64px;
+        }
+
+        .cta-button {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 16px 32px;
+            font-size: 1rem;
+            font-weight: 600;
+            text-decoration: none;
+            border-radius: 12px;
+            transition: all 0.3s ease;
+        }
+
+        .cta-primary {
+            background: linear-gradient(135deg, var(--primary), var(--primary-light));
+            color: white;
+            box-shadow: 0 8px 24px rgba(99, 102, 241, 0.3);
+        }
+
+        .cta-primary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 12px 32px rgba(99, 102, 241, 0.4);
+        }
+
+        .cta-secondary {
+            background: rgba(255, 255, 255, 0.05);
+            color: var(--text-primary);
+            border: 1px solid var(--border);
+            backdrop-filter: blur(10px);
+        }
+
+        .cta-secondary:hover {
+            background: rgba(255, 255, 255, 0.1);
+            border-color: var(--primary);
+        }
+
+        /* Main Content Styles */
+        main {
+            padding: 80px 0;
+        }
+
+        main h1, main h2, main h3 {
+            font-family: 'Space Grotesk', sans-serif;
+            color: var(--text-primary);
+        }
+
+        main h2 {
+            font-size: 2.5rem;
+            margin: 60px 0 24px;
+        }
+
+        main h3 {
+            font-size: 1.75rem;
+            margin: 40px 0 16px;
+        }
+
+        main p {
+            color: var(--text-secondary);
+            font-size: 1.125rem;
+            line-height: 1.8;
+            margin-bottom: 20px;
+        }
+
+        main ul, main ol {
+            color: var(--text-secondary);
+            font-size: 1.125rem;
+            line-height: 1.8;
+            margin: 20px 0 20px 32px;
+        }
+
+        main li {
+            margin-bottom: 12px;
+        }
+
+        main a {
+            color: var(--primary-light);
+            text-decoration: none;
+            border-bottom: 1px solid var(--primary);
+        }
+
+        main a:hover {
+            color: var(--accent);
+            border-color: var(--accent);
+        }
+
+        /* Contact Section */
+        .contact-section {
+            padding: 100px 0;
+            background: linear-gradient(135deg, var(--dark-bg) 0%, var(--dark-surface) 100%);
+            border-top: 1px solid var(--border);
+        }
+
+        .contact-content {
+            text-align: center;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .contact-content h2 {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+            background: linear-gradient(135deg, var(--text-primary) 0%, var(--text-secondary) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .contact-content > p {
+            font-size: 1.25rem;
+            color: var(--text-secondary);
+            margin-bottom: 60px;
+            line-height: 1.7;
+        }
+
+        .contact-methods {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 40px;
+            margin-top: 60px;
+        }
+
+        .contact-method {
+            background: linear-gradient(135deg, var(--dark-surface) 0%, var(--dark-elevated) 100%);
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            padding: 40px 30px;
+            transition: all 0.3s ease;
+        }
+
+        .contact-method:hover {
+            border-color: var(--primary);
+            transform: translateY(-8px);
+            box-shadow: 0 20px 60px rgba(99, 102, 241, 0.2);
+        }
+
+        .contact-icon {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+
+        .contact-method h3 {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-bottom: 12px;
+        }
+
+        .contact-method p {
+            color: var(--text-secondary);
+            margin: 0;
+            line-height: 1.7;
+        }
+
+        .contact-method a {
+            color: var(--primary-light);
+            text-decoration: none;
+            font-size: 1.125rem;
+            transition: color 0.3s ease;
+        }
+
+        .contact-method a:hover {
+            color: var(--accent);
+        }
+
+        /* Footer */
+        .footer {
+            background: var(--dark-surface);
+            border-top: 1px solid var(--border);
+            padding: 80px 0 32px;
+        }
+
+        .footer-content {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr;
+            gap: 60px;
+            margin-bottom: 60px;
+        }
+
+        .footer-company h3 {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+            background: linear-gradient(135deg, var(--primary-light), var(--accent));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .footer-company p {
+            color: var(--text-muted);
+            line-height: 1.7;
+            margin-bottom: 12px;
+        }
+
+        .footer-section h4 {
+            font-weight: 600;
+            margin-bottom: 20px;
+            color: var(--text-primary);
+        }
+
+        .footer-section ul {
+            list-style: none;
+        }
+
+        .footer-section a {
+            color: var(--text-muted);
+            text-decoration: none;
+            display: block;
+            padding: 8px 0;
+            transition: color 0.3s ease;
+            border: none;
+        }
+
+        .footer-section a:hover {
+            color: var(--primary-light);
+        }
+
+        .footer-bottom {
+            border-top: 1px solid var(--border);
+            padding-top: 32px;
+            text-align: center;
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                background: rgba(15, 23, 42, 0.98);
+                flex-direction: column;
+                padding: 24px;
+                border-bottom: 1px solid var(--border);
+                box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+            }
+
+            .nav-links.active {
+                display: flex;
+            }
+
+            .mobile-toggle {
+                display: block;
+            }
+
+            .founder-intro h1, .page-header h1 {
+                font-size: 2.5rem;
+            }
+
+            .founder-image {
+                width: 200px;
+                height: 200px;
+            }
+
+            .story-section h2 {
+                font-size: 2rem;
+            }
+
+            .expertise-highlight {
+                padding: 40px 24px;
+            }
+
+            .footer-content {
+                grid-template-columns: 1fr;
+                gap: 40px;
+            }
+
+            .founder-cta {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <a href="/" class="logo">Eternia Solutions</a>
+                <button class="mobile-toggle" id="mobileToggle">☰</button>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="/#services">Services</a></li>
+                    <li><a href="/#technologies">Technologies</a></li>
+                    <li><a href="/#about">About</a></li>
+                    <li><a href="/founder">Founder</a></li>
+                    <li><a href="/process">Process</a></li>
+                    <li><a href="#contact" class="nav-cta">Get in Touch</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header>
+    <div class="container">
+        <div class="header-content">
+            <h1>My Process</h1>
+            <p>How I deliver exceptional results for your backend challenges</p>
+        </div>
+    </div>
+</header>
+
+<main>
+    <section class="process-content">
+        <div class="container">
+            <div class="process-intro">
+                <h2>Structured Approach to Complex Problems</h2>
+                <p>We follow a proven methodology that ensures your project is delivered on time, within budget, and 
+to the highest quality standards. Here's how we'll work together:</p>
+            </div>
+            
+            <div class="process-steps">
+                <div class="process-step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>Discovery &amp; Analysis</h3>
+                        <p>We start with a comprehensive analysis of your current situation and requirements.</p>
+                        <ul>
+                            <li>Technical assessment of existing systems</li>
+                            <li>Performance bottleneck identification</li>
+                            <li>Security and scalability analysis</li>
+                            <li>Business requirements gathering</li>
+                            <li>Stakeholder interviews and workshops</li>
+                        </ul>
+                        <div class="step-deliverable">
+                            <strong>Deliverable:</strong> Technical audit report with recommendations
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="process-step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>Planning &amp; Architecture</h3>
+                        <p>I design a comprehensive solution architecture that addresses your specific challenges.</p>
+                        <ul>
+                            <li>System architecture design</li>
+                            <li>Technology stack selection</li>
+                            <li>Database schema planning</li>
+                            <li>API design and documentation</li>
+                            <li>Security and performance strategy</li>
+                        </ul>
+                        <div class="step-deliverable">
+                            <strong>Deliverable:</strong> Detailed technical specification and project plan
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="process-step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>Development Sprints</h3>
+                        <p>Agile development with regular check-ins and transparent progress tracking.</p>
+                        <ul>
+                            <li>2-week development sprints</li>
+                            <li>Regular progress updates and demos</li>
+                            <li>Code review and quality assurance</li>
+                            <li>Continuous integration and testing</li>
+                            <li>Performance monitoring and optimization</li>
+                        </ul>
+                        <div class="step-deliverable">
+                            <strong>Deliverable:</strong> Working software with regular milestone releases
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="process-step">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h3>Testing &amp; Quality Assurance</h3>
+                        <p>Comprehensive testing ensures your solution is robust, secure, and performant.</p>
+                        <ul>
+                            <li>Unit and integration testing</li>
+                            <li>Security vulnerability assessment</li>
+                            <li>Performance and load testing</li>
+                            <li>User acceptance testing</li>
+                            <li>Documentation and training materials</li>
+                        </ul>
+                        <div class="step-deliverable">
+                            <strong>Deliverable:</strong> Fully tested and documented solution
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="process-step">
+                    <div class="step-number">5</div>
+                    <div class="step-content">
+                        <h3>Deployment &amp; Support</h3>
+                        <p>Smooth deployment with ongoing support to ensure long-term success.</p>
+                        <ul>
+                            <li>Production deployment planning</li>
+                            <li>Zero-downtime deployment strategies</li>
+                            <li>Monitoring and alerting setup</li>
+                            <li>Post-deployment support</li>
+                            <li>Performance optimization and maintenance</li>
+                        </ul>
+                        <div class="step-deliverable">
+                            <strong>Deliverable:</strong> Live system with monitoring and support
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="process-benefits">
+                <h2>Why This Process Works</h2>
+                <div class="benefits-grid">
+                    <div class="benefit-item">
+                        <h3>Transparency</h3>
+                        <p>Regular updates and clear communication throughout the entire process. You'll always know exactly what's happening and when.</p>
+                    </div>
+                    <div class="benefit-item">
+                        <h3>Quality Assurance</h3>
+                        <p>Multiple layers of testing and review ensure your solution meets the highest standards of quality and reliability.</p>
+                    </div>
+                    <div class="benefit-item">
+                        <h3>Risk Mitigation</h3>
+                        <p>Early identification of potential issues and proactive problem-solving prevent costly delays and rework.</p>
+                    </div>
+                    <div class="benefit-item">
+                        <h3>Scalability</h3>
+                        <p>Solutions designed with future growth in mind, ensuring your system can handle increased demand without major rework.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="cta-section">
+                <h2>Ready to Get Started?</h2>
+                <p>Let's discuss your project and see how this process can work for you.</p>
+                <a href="mailto:office@eterniasolutions.io" class="cta-primary">Book a Free Discovery Call</a>
+            </div>
+        </div>
+    </section>
+</main>
+
+<style>
+    .process-content {
+        padding: 80px 0;
+    }
+
+    .process-intro {
+        text-align: center;
+        margin-bottom: 80px;
+    }
+
+    .process-intro h2 {
+        font-family: 'Space Grotesk', sans-serif;
+        color: var(--text-primary);
+        margin-bottom: 24px;
+        font-size: 2.5rem;
+        font-weight: 700;
+    }
+
+    .process-intro p {
+        font-size: 1.25rem;
+        color: var(--text-secondary);
+        max-width: 700px;
+        margin: 0 auto;
+        line-height: 1.7;
+    }
+
+    .process-steps {
+        margin-bottom: 120px;
+    }
+
+    .process-step {
+        display: grid;
+        grid-template-columns: auto 1fr;
+        gap: 32px;
+        margin-bottom: 48px;
+        align-items: start;
+    }
+
+    .step-number {
+        background: linear-gradient(135deg, var(--primary), var(--primary-light));
+        color: white;
+        width: 64px;
+        height: 64px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.75rem;
+        font-weight: 800;
+        flex-shrink: 0;
+        box-shadow: 0 8px 24px rgba(99, 102, 241, 0.3);
+    }
+
+    .step-content {
+        background: linear-gradient(135deg, var(--dark-surface) 0%, var(--dark-elevated) 100%);
+        border: 1px solid var(--border);
+        padding: 40px;
+        border-radius: 20px;
+        transition: all 0.3s ease;
+    }
+
+    .step-content:hover {
+        border-color: var(--primary);
+        box-shadow: 0 12px 40px rgba(99, 102, 241, 0.15);
+    }
+
+    .step-content h3 {
+        font-family: 'Space Grotesk', sans-serif;
+        color: var(--text-primary);
+        margin-bottom: 16px;
+        font-size: 1.75rem;
+        font-weight: 600;
+    }
+
+    .step-content p {
+        margin-bottom: 24px;
+        color: var(--text-secondary);
+        line-height: 1.7;
+        font-size: 1.125rem;
+    }
+
+    .step-content ul {
+        margin-bottom: 24px;
+        padding-left: 24px;
+        list-style: none;
+    }
+
+    .step-content li {
+        margin-bottom: 12px;
+        color: var(--text-secondary);
+        position: relative;
+        padding-left: 20px;
+    }
+
+    .step-content li::before {
+        content: '→';
+        position: absolute;
+        left: 0;
+        color: var(--accent);
+    }
+
+    .step-deliverable {
+        background: rgba(99, 102, 241, 0.1);
+        padding: 16px 20px;
+        border-radius: 12px;
+        border-left: 4px solid var(--primary);
+        font-size: 0.95rem;
+        color: var(--text-secondary);
+    }
+
+    .step-deliverable strong {
+        color: var(--primary-light);
+    }
+
+    .process-benefits {
+        margin-bottom: 80px;
+    }
+
+    .process-benefits h2 {
+        font-family: 'Space Grotesk', sans-serif;
+        text-align: center;
+        color: var(--text-primary);
+        margin-bottom: 60px;
+        font-size: 2.5rem;
+        font-weight: 700;
+    }
+
+    .benefits-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 32px;
+    }
+
+    .benefit-item {
+        background: linear-gradient(135deg, var(--dark-surface) 0%, var(--dark-elevated) 100%);
+        border: 1px solid var(--border);
+        padding: 40px;
+        border-radius: 20px;
+        text-align: center;
+        transition: all 0.3s ease;
+    }
+
+    .benefit-item:hover {
+        border-color: var(--primary);
+        transform: translateY(-4px);
+        box-shadow: 0 12px 40px rgba(99, 102, 241, 0.15);
+    }
+
+    .benefit-item h3 {
+        font-family: 'Space Grotesk', sans-serif;
+        color: var(--text-primary);
+        margin-bottom: 16px;
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+
+    .benefit-item p {
+        color: var(--text-secondary);
+        line-height: 1.7;
+    }
+
+    .cta-section {
+        text-align: center;
+        background: linear-gradient(135deg, var(--dark-surface) 0%, var(--dark-elevated) 100%);
+        border: 1px solid var(--border);
+        padding: 80px 40px;
+        border-radius: 20px;
+    }
+
+    .cta-section h2 {
+        font-family: 'Space Grotesk', sans-serif;
+        color: var(--text-primary);
+        margin-bottom: 16px;
+        font-size: 2.5rem;
+        font-weight: 700;
+    }
+
+    .cta-section p {
+        margin-bottom: 32px;
+        color: var(--text-secondary);
+        font-size: 1.25rem;
+    }
+
+    @media (max-width: 768px) {
+        .process-step {
+            grid-template-columns: 1fr;
+            gap: 20px;
+        }
+
+        .step-number {
+            align-self: center;
+            margin: 0 auto;
+        }
+
+        .benefits-grid {
+            grid-template-columns: 1fr;
+        }
+
+        .process-intro h2,
+        .process-benefits h2,
+        .cta-section h2 {
+            font-size: 2rem;
+        }
+
+        .step-content {
+            padding: 32px 24px;
+        }
+    }
+</style>
+
+
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="contact-content">
+                <h2>Let's Build Something Great</h2>
+                <p>Ready to discuss your project? Get in touch and let's explore how we can help you achieve your goals.</p>
+                <div class="contact-methods">
+                    <div class="contact-method">
+                        <div class="contact-icon">✉️</div>
+                        <h3>Email</h3>
+                        <a href="mailto:office@eterniasolutions.io">office@eterniasolutions.io</a>
+                    </div>
+                    <div class="contact-method">
+                        <div class="contact-icon">⏰</div>
+                        <h3>Business Hours</h3>
+                        <p>Monday - Friday<br>9 AM - 6 PM EST</p>
+                    </div>
+                    <div class="contact-method">
+                        <div class="contact-icon">📍</div>
+                        <h3>Location</h3>
+                        <p>United States</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-company">
+                    <h3>Eternia Solutions LLC</h3>
+                    <p>Professional software architecture and development services for enterprise clients.</p>
+                    <p><strong>Email:</strong> office@eterniasolutions.io</p>
+                    <p><strong>Hours:</strong> Mon-Fri, 9 AM - 6 PM EST</p>
+                    <p><strong>Location:</strong> United States</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="/#services">API Development</a></li>
+                        <li><a href="/#services">Software Architecture</a></li>
+                        <li><a href="/#services">Database Design</a></li>
+                        <li><a href="/#services">System Integration</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="/founder">Founder</a></li>
+                        <li><a href="/process">Our Process</a></li>
+                        <li><a href="/privacy">Privacy Policy</a></li>
+                        <li><a href="/terms">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                &copy; 2025 Eternia Solutions LLC. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const mobileToggle = document.getElementById('mobileToggle');
+        const navLinks = document.getElementById('navLinks');
+
+        if (mobileToggle && navLinks) {
+            mobileToggle.addEventListener('click', () => {
+                navLinks.classList.toggle('active');
+            });
+
+            // Close mobile menu on link click
+            document.querySelectorAll('.nav-links a').forEach(link => {
+                link.addEventListener('click', () => {
+                    navLinks.classList.remove('active');
+                });
+            });
+        }
+
+        // Navbar scroll effect
+        const navbar = document.getElementById('navbar');
+        if (navbar) {
+            window.addEventListener('scroll', () => {
+                if (window.scrollY > 50) {
+                    navbar.classList.add('scrolled');
+                } else {
+                    navbar.classList.remove('scrolled');
+                }
+            });
+        }
+    </script>
+</body>
+</html>

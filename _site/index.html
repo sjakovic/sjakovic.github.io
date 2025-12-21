@@ -1,0 +1,1012 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eternia Solutions LLC | Enterprise Software Architecture & Development</title>
+    <meta name="description" content="Premium software architecture and development services. Expert API design, backend systems, and database engineering for ambitious enterprises.">
+    <meta name="keywords" content="software architecture, API development, API design, backend development, PHP development, Node.js development, PostgreSQL, MySQL, NoSQL, database engineering, system integration, enterprise software, network engineering, software consulting">
+
+    <!-- SEO Tags -->
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Eternia Solutions LLC Enterprise Software Architecture &amp; Development | Eternia Solutions LLC - Professional Software Architecture &amp; API Development</title>
+<meta name="generator" content="Jekyll v4.3.4" />
+<meta property="og:title" content="Eternia Solutions LLC Enterprise Software Architecture &amp; Development" />
+<meta name="author" content="Eternia Solutions LLC" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Premium software architecture and development services. Expert API design, backend systems, and database engineering for ambitious enterprises." />
+<meta property="og:description" content="Premium software architecture and development services. Expert API design, backend systems, and database engineering for ambitious enterprises." />
+<link rel="canonical" href="http://0.0.0.0:4000/" />
+<meta property="og:url" content="http://0.0.0.0:4000/" />
+<meta property="og:site_name" content="Eternia Solutions LLC - Professional Software Architecture &amp; API Development" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Eternia Solutions LLC Enterprise Software Architecture &amp; Development" />
+<meta name="twitter:site" content="@eterniasolutions" />
+<meta name="twitter:creator" content="@Eternia Solutions LLC" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","author":{"@type":"Person","name":"Eternia Solutions LLC"},"description":"Premium software architecture and development services. Expert API design, backend systems, and database engineering for ambitious enterprises.","headline":"Eternia Solutions LLC Enterprise Software Architecture &amp; Development","name":"Eternia Solutions LLC - Professional Software Architecture &amp; API Development","url":"http://0.0.0.0:4000/"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --primary: #6366f1;
+            --primary-light: #818cf8;
+            --accent: #10b981;
+            --accent-alt: #f59e0b;
+            --dark-bg: #0f172a;
+            --dark-surface: #1e293b;
+            --dark-elevated: #334155;
+            --text-primary: #f8fafc;
+            --text-secondary: #cbd5e1;
+            --text-muted: #94a3b8;
+            --border: #334155;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            color: var(--text-primary);
+            line-height: 1.6;
+            background: var(--dark-bg);
+            overflow-x: hidden;
+        }
+
+        .container {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 32px;
+        }
+
+        /* Navigation */
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            background: rgba(15, 23, 42, 0.8);
+            backdrop-filter: blur(20px);
+            border-bottom: 1px solid var(--border);
+            transition: all 0.3s ease;
+        }
+
+        .navbar.scrolled {
+            background: rgba(15, 23, 42, 0.95);
+            box-shadow: 0 4px 24px rgba(0, 0, 0, 0.3);
+        }
+
+        .nav-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 0;
+        }
+
+        .logo {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 1.5rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, var(--primary-light), var(--accent));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-decoration: none;
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 40px;
+            align-items: center;
+        }
+
+        .nav-links a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 0.95rem;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+
+        .nav-links a::after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--primary);
+            transition: width 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            color: var(--text-primary);
+        }
+
+        .nav-links a:hover::after {
+            width: 100%;
+        }
+
+        .nav-cta {
+            background: linear-gradient(135deg, var(--primary), var(--primary-light));
+            color: white !important;
+            padding: 10px 24px;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 12px rgba(99, 102, 241, 0.3);
+        }
+
+        .nav-cta::after {
+            display: none;
+        }
+
+        .nav-cta:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(99, 102, 241, 0.4);
+        }
+
+        .mobile-toggle {
+            display: none;
+            background: none;
+            border: none;
+            color: var(--text-primary);
+            font-size: 1.5rem;
+            cursor: pointer;
+        }
+
+        /* Hero Section */
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            position: relative;
+            overflow: hidden;
+            padding: 140px 0 80px;
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0f172a 100%);
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: radial-gradient(circle at 20% 50%, rgba(99, 102, 241, 0.1) 0%, transparent 50%),
+                        radial-gradient(circle at 80% 80%, rgba(16, 185, 129, 0.1) 0%, transparent 50%);
+            pointer-events: none;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 10;
+            max-width: 900px;
+        }
+
+        .hero-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: rgba(99, 102, 241, 0.1);
+            border: 1px solid rgba(99, 102, 241, 0.3);
+            padding: 8px 16px;
+            border-radius: 100px;
+            color: var(--primary-light);
+            font-size: 0.875rem;
+            font-weight: 500;
+            margin-bottom: 24px;
+        }
+
+        .hero-badge::before {
+            content: '●';
+            color: var(--accent);
+            animation: pulse 2s ease-in-out infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+
+        .hero h1 {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 4.5rem;
+            font-weight: 700;
+            line-height: 1.1;
+            margin-bottom: 24px;
+            background: linear-gradient(135deg, var(--text-primary) 0%, var(--text-secondary) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .hero p {
+            font-size: 1.375rem;
+            color: var(--text-secondary);
+            margin-bottom: 40px;
+            line-height: 1.7;
+            max-width: 700px;
+        }
+
+        .cta-group {
+            display: flex;
+            gap: 16px;
+            flex-wrap: wrap;
+        }
+
+        .cta-button {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 16px 32px;
+            font-size: 1rem;
+            font-weight: 600;
+            text-decoration: none;
+            border-radius: 12px;
+            transition: all 0.3s ease;
+        }
+
+        .cta-primary {
+            background: linear-gradient(135deg, var(--primary), var(--primary-light));
+            color: white;
+            box-shadow: 0 8px 24px rgba(99, 102, 241, 0.3);
+        }
+
+        .cta-primary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 12px 32px rgba(99, 102, 241, 0.4);
+        }
+
+        .cta-secondary {
+            background: rgba(255, 255, 255, 0.05);
+            color: var(--text-primary);
+            border: 1px solid var(--border);
+            backdrop-filter: blur(10px);
+        }
+
+        .cta-secondary:hover {
+            background: rgba(255, 255, 255, 0.1);
+            border-color: var(--primary);
+        }
+
+        .trust-stats {
+            display: flex;
+            gap: 48px;
+            margin-top: 64px;
+            flex-wrap: wrap;
+        }
+
+        .stat-item {
+            flex: 1;
+            min-width: 150px;
+        }
+
+        .stat-number {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 3rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, var(--primary-light), var(--accent));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        .stat-label {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+        }
+
+        /* Services Section */
+        .services {
+            padding: 120px 0;
+            position: relative;
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 80px;
+        }
+
+        .section-badge {
+            display: inline-block;
+            background: rgba(99, 102, 241, 0.1);
+            color: var(--primary-light);
+            padding: 6px 16px;
+            border-radius: 100px;
+            font-size: 0.875rem;
+            font-weight: 600;
+            margin-bottom: 16px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .section-header h2 {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 3.5rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+            line-height: 1.2;
+        }
+
+        .section-header p {
+            font-size: 1.25rem;
+            color: var(--text-secondary);
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 32px;
+        }
+
+        .service-card {
+            background: linear-gradient(135deg, var(--dark-surface) 0%, var(--dark-elevated) 100%);
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            padding: 40px;
+            transition: all 0.4s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .service-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, var(--primary), var(--accent));
+            opacity: 0;
+            transition: opacity 0.4s ease;
+        }
+
+        .service-card:hover {
+            transform: translateY(-8px);
+            border-color: var(--primary);
+            box-shadow: 0 20px 60px rgba(99, 102, 241, 0.2);
+        }
+
+        .service-card:hover::before {
+            opacity: 1;
+        }
+
+        .service-icon {
+            width: 56px;
+            height: 56px;
+            background: linear-gradient(135deg, rgba(99, 102, 241, 0.2), rgba(16, 185, 129, 0.2));
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.75rem;
+            margin-bottom: 24px;
+        }
+
+        .service-card h3 {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 16px;
+            color: var(--text-primary);
+        }
+
+        .service-card p {
+            color: var(--text-secondary);
+            line-height: 1.7;
+            font-size: 1rem;
+        }
+
+        /* Technologies Section */
+        .technologies {
+            padding: 120px 0;
+            background: linear-gradient(180deg, var(--dark-bg) 0%, var(--dark-surface) 50%, var(--dark-bg) 100%);
+        }
+
+        .tech-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 24px;
+            justify-content: center;
+        }
+
+        .tech-category {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 32px;
+            transition: all 0.3s ease;
+            flex: 0 0 calc(33.333% - 16px);
+            min-width: 280px;
+        }
+
+        .tech-category:hover {
+            background: rgba(255, 255, 255, 0.05);
+            border-color: var(--primary);
+        }
+
+        .tech-category h3 {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 1.125rem;
+            font-weight: 600;
+            color: var(--primary-light);
+            margin-bottom: 20px;
+        }
+
+        .tech-category ul {
+            list-style: none;
+        }
+
+        .tech-category li {
+            color: var(--text-secondary);
+            padding: 8px 0;
+            font-size: 0.95rem;
+            position: relative;
+            padding-left: 20px;
+        }
+
+        .tech-category li::before {
+            content: '→';
+            position: absolute;
+            left: 0;
+            color: var(--accent);
+        }
+
+        /* About Section */
+        .about {
+            padding: 120px 0;
+        }
+
+        .about-content {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .about-content p {
+            font-size: 1.25rem;
+            color: var(--text-secondary);
+            margin-bottom: 28px;
+            line-height: 1.8;
+        }
+
+        .about-content p:first-of-type {
+            font-size: 1.5rem;
+            color: var(--text-primary);
+            font-weight: 500;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 48px;
+            margin-top: 64px;
+        }
+
+        .stat-box {
+            text-align: center;
+        }
+
+        /* Contact Section */
+        .contact-section {
+            padding: 100px 0;
+            background: linear-gradient(135deg, var(--dark-bg) 0%, var(--dark-surface) 100%);
+            border-top: 1px solid var(--border);
+        }
+
+        .contact-content {
+            text-align: center;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .contact-content h2 {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+            background: linear-gradient(135deg, var(--text-primary) 0%, var(--text-secondary) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .contact-content > p {
+            font-size: 1.25rem;
+            color: var(--text-secondary);
+            margin-bottom: 60px;
+            line-height: 1.7;
+        }
+
+        .contact-methods {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 40px;
+            margin-top: 60px;
+        }
+
+        .contact-method {
+            background: linear-gradient(135deg, var(--dark-surface) 0%, var(--dark-elevated) 100%);
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            padding: 40px 30px;
+            transition: all 0.3s ease;
+        }
+
+        .contact-method:hover {
+            border-color: var(--primary);
+            transform: translateY(-8px);
+            box-shadow: 0 20px 60px rgba(99, 102, 241, 0.2);
+        }
+
+        .contact-icon {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+
+        .contact-method h3 {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-bottom: 12px;
+        }
+
+        .contact-method p {
+            color: var(--text-secondary);
+            margin: 0;
+            line-height: 1.7;
+        }
+
+        .contact-method a {
+            color: var(--primary-light);
+            text-decoration: none;
+            font-size: 1.125rem;
+            transition: color 0.3s ease;
+        }
+
+        .contact-method a:hover {
+            color: var(--accent);
+        }
+
+        /* Footer */
+        .footer {
+            background: var(--dark-surface);
+            border-top: 1px solid var(--border);
+            padding: 80px 0 32px;
+        }
+
+        .footer-content {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr;
+            gap: 60px;
+            margin-bottom: 60px;
+        }
+
+        .footer-company h3 {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+            background: linear-gradient(135deg, var(--primary-light), var(--accent));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .footer-company p {
+            color: var(--text-muted);
+            line-height: 1.7;
+            margin-bottom: 12px;
+        }
+
+        .footer-section h4 {
+            font-weight: 600;
+            margin-bottom: 20px;
+            color: var(--text-primary);
+        }
+
+        .footer-section ul {
+            list-style: none;
+        }
+
+        .footer-section a {
+            color: var(--text-muted);
+            text-decoration: none;
+            display: block;
+            padding: 8px 0;
+            transition: color 0.3s ease;
+        }
+
+        .footer-section a:hover {
+            color: var(--primary-light);
+        }
+
+        .footer-bottom {
+            border-top: 1px solid var(--border);
+            padding-top: 32px;
+            text-align: center;
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+
+        /* Responsive */
+        @media (max-width: 1024px) {
+            .services-grid {
+                grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            }
+        }
+
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                background: rgba(15, 23, 42, 0.98);
+                flex-direction: column;
+                padding: 24px;
+                border-bottom: 1px solid var(--border);
+                box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+            }
+
+            .nav-links.active {
+                display: flex;
+            }
+
+            .mobile-toggle {
+                display: block;
+            }
+
+            .hero {
+                padding: 120px 0 60px;
+            }
+
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+
+            .hero p {
+                font-size: 1.125rem;
+            }
+
+            .section-header h2 {
+                font-size: 2.5rem;
+            }
+
+            .services-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .footer-content {
+                grid-template-columns: 1fr;
+                gap: 40px;
+            }
+
+            .trust-stats {
+                gap: 32px;
+            }
+
+            .stat-number {
+                font-size: 2.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <a href="/" class="logo">Eternia Solutions</a>
+                <button class="mobile-toggle" id="mobileToggle">☰</button>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="/#services">Services</a></li>
+                    <li><a href="/#technologies">Technologies</a></li>
+                    <li><a href="/#about">About</a></li>
+                    <li><a href="/founder">Founder</a></li>
+                    <li><a href="/process">Process</a></li>
+                    <li><a href="#contact" class="nav-cta">Get in Touch</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero">
+    <div class="container">
+        <div class="hero-content">
+            <div class="hero-badge">Enterprise Software Solutions</div>
+            <h1>Building the Infrastructure Behind Tomorrow's Leading Companies</h1>
+            <p>We architect and develop mission-critical backend systems, APIs, and databases that power enterprise growth. From startup to scale.</p>
+            <div class="cta-group">
+                <a href="#contact" class="cta-button cta-primary">
+                    Start a Project
+                    <span>→</span>
+                </a>
+                <a href="/founder" class="cta-button cta-secondary">
+                    Meet the Founder
+                </a>
+            </div>
+            <div class="trust-stats">
+                <div class="stat-item">
+                    <span class="stat-number">15+</span>
+                    <span class="stat-label">Years Building Systems</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">100+</span>
+                    <span class="stat-label">Projects Delivered</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">99.9%</span>
+                    <span class="stat-label">Uptime Achieved</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="services" class="services">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-badge">What We Do</span>
+            <h2>Engineered for Performance</h2>
+            <p>Specialized expertise in the technologies that matter for enterprise-grade applications</p>
+        </div>
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon">⚡</div>
+                <h3>API Architecture &amp; Development</h3>
+                <p>Design and build RESTful, GraphQL, and real-time APIs that serve millions of requests. Optimized for performance, security, and developer experience.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">🏗️</div>
+                <h3>Software Architecture</h3>
+                <p>Strategic system design from the ground up. Microservices, monoliths, serverless—we choose the right architecture for your business requirements and scale.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">💾</div>
+                <h3>Database Engineering</h3>
+                <p>PostgreSQL, MySQL, NoSQL design and optimization. We build data layers that handle growth without breaking. Query optimization, indexing strategies, and replication architecture.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">🔧</div>
+                <h3>Backend Development</h3>
+                <p>Modern PHP and Node.js development with Laravel, Symfony, Express, and NestJS. Clean code, comprehensive testing, and deployment pipelines included.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">🔌</div>
+                <h3>System Integration</h3>
+                <p>Connect your systems seamlessly. Third-party API integration, legacy system modernization, and data synchronization across platforms.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">🔍</div>
+                <h3>Technical Consulting</h3>
+                <p>Architecture reviews, performance audits, security assessments. Get expert guidance on the technical decisions that will define your product's future.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="technologies" class="technologies">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-badge">Technology Stack</span>
+            <h2>Modern Tools, Proven Results</h2>
+            <p>We work with the technologies that deliver enterprise reliability</p>
+        </div>
+        <div class="tech-grid">
+            <div class="tech-category">
+                <h3>Backend Languages</h3>
+                <ul>
+                    <li>PHP 8.x</li>
+                    <li>Node.js</li>
+                    <li>TypeScript</li>
+                    <li>JavaScript (ES6+)</li>
+                </ul>
+            </div>
+            <div class="tech-category">
+                <h3>Databases</h3>
+                <ul>
+                    <li>PostgreSQL</li>
+                    <li>MySQL / MariaDB</li>
+                    <li>MongoDB</li>
+                    <li>Redis</li>
+                </ul>
+            </div>
+            <div class="tech-category">
+                <h3>Frameworks</h3>
+                <ul>
+                    <li>Laravel</li>
+                    <li>Symfony</li>
+                    <li>Express.js</li>
+                    <li>NestJS</li>
+                </ul>
+            </div>
+            <div class="tech-category">
+                <h3>API &amp; Integration</h3>
+                <ul>
+                    <li>REST Architecture</li>
+                    <li>GraphQL</li>
+                    <li>WebSockets</li>
+                    <li>gRPC</li>
+                </ul>
+            </div>
+            <div class="tech-category">
+                <h3>Infrastructure</h3>
+                <ul>
+                    <li>AWS / Cloud Services</li>
+                    <li>Docker &amp; Containers</li>
+                    <li>Kubernetes</li>
+                    <li>CI/CD Pipelines</li>
+                </ul>
+            </div>
+            <div class="tech-category">
+                <h3>Networking</h3>
+                <ul>
+                    <li>TCP/IP Stack</li>
+                    <li>Load Balancing</li>
+                    <li>CDN Integration</li>
+                    <li>Network Security</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="about" class="about">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-badge">About Us</span>
+            <h2>Eternia Solutions LLC</h2>
+        </div>
+        <div class="about-content">
+            <p>We are a US-based software development firm specializing in enterprise backend systems and API development.</p>
+
+            <p>Since our founding, we've worked with companies across fintech, e-commerce, healthcare, and SaaS industries—building the invisible infrastructure that powers their growth. Our approach combines deep technical expertise with a focus on business outcomes.</p>
+
+            <p>We don't do surface-level implementations. Every system we build is architected for performance, security, and long-term maintainability. We're the team you bring in when quality can't be compromised.</p>
+
+            <p>Whether you're launching a new product, scaling an existing platform, or modernizing legacy systems, we bring 15+ years of hands-on experience solving complex backend challenges.</p>
+        </div>
+        <div class="stats-grid">
+            <div class="stat-box">
+                <span class="stat-number">15+</span>
+                <span class="stat-label">Years in Software Engineering</span>
+            </div>
+            <div class="stat-box">
+                <span class="stat-number">100+</span>
+                <span class="stat-label">Successful Projects</span>
+            </div>
+            <div class="stat-box">
+                <span class="stat-number">24/7</span>
+                <span class="stat-label">Support Available</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+    </main>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="contact-content">
+                <h2>Let's Build Something Great</h2>
+                <p>Ready to discuss your project? Get in touch and let's explore how we can help you achieve your goals.</p>
+                <div class="contact-methods">
+                    <div class="contact-method">
+                        <div class="contact-icon">✉️</div>
+                        <h3>Email</h3>
+                        <a href="mailto:office@eterniasolutions.io">office@eterniasolutions.io</a>
+                    </div>
+                    <div class="contact-method">
+                        <div class="contact-icon">⏰</div>
+                        <h3>Business Hours</h3>
+                        <p>Monday - Friday<br>9 AM - 6 PM EST</p>
+                    </div>
+                    <div class="contact-method">
+                        <div class="contact-icon">📍</div>
+                        <h3>Location</h3>
+                        <p>United States</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-company">
+                    <h3>Eternia Solutions LLC</h3>
+                    <p>Professional software architecture and development services for enterprise clients.</p>
+                    <p><strong>Email:</strong> office@eterniasolutions.io</p>
+                    <p><strong>Hours:</strong> Mon-Fri, 9 AM - 6 PM EST</p>
+                    <p><strong>Location:</strong> United States</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="/#services">API Development</a></li>
+                        <li><a href="/#services">Software Architecture</a></li>
+                        <li><a href="/#services">Database Design</a></li>
+                        <li><a href="/#services">System Integration</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="/founder">Founder</a></li>
+                        <li><a href="/process">Our Process</a></li>
+                        <li><a href="/privacy">Privacy Policy</a></li>
+                        <li><a href="/terms">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                &copy; 2025 Eternia Solutions LLC. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const mobileToggle = document.getElementById('mobileToggle');
+        const navLinks = document.getElementById('navLinks');
+
+        mobileToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+
+        // Navbar scroll effect
+        const navbar = document.getElementById('navbar');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        // Close mobile menu on link click
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', (e) => {
+                navLinks.classList.remove('active');
+
+                // Handle mailto links - ensure they work
+                if (link.href.startsWith('mailto:')) {
+                    e.preventDefault();
+                    window.location.href = link.href;
+                }
+            });
+        });
+
+        // Ensure mailto link works on direct click
+        document.querySelectorAll('a[href^="mailto:"]').forEach(mailLink => {
+            mailLink.addEventListener('click', (e) => {
+                console.log('Email link clicked:', mailLink.href);
+            });
+        });
+    </script>
+</body>
+</html>
