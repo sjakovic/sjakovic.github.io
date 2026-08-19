@@ -1,13 +1,14 @@
 ---
 layout: default
-title: My Process
+title: How I Work | Eternia Solutions
+description: The five-step process I use on backend and API projects, from discovery through deployment and support.
 ---
 
 <header>
     <div class="container">
         <div class="header-content">
-            <h1>My Process</h1>
-            <p>How I deliver exceptional results for your backend challenges</p>
+            <h1>How I Work</h1>
+            <p>The process I use to take a backend problem from first call to production</p>
         </div>
     </div>
 </header>
@@ -17,8 +18,8 @@ title: My Process
         <div class="container">
             <div class="process-intro">
                 <h2>Structured Approach to Complex Problems</h2>
-                <p>We follow a proven methodology that ensures your project is delivered on time, within budget, and 
-to the highest quality standards. Here's how we'll work together:</p>
+                <p>Every project I take runs through the same five steps. It is not ceremony &mdash; it is how I keep a
+one-person practice predictable for the client: you always know what stage we're in and what you get out of it.</p>
             </div>
             
             <div class="process-steps">
@@ -26,7 +27,7 @@ to the highest quality standards. Here's how we'll work together:</p>
                     <div class="step-number">1</div>
                     <div class="step-content">
                         <h3>Discovery & Analysis</h3>
-                        <p>We start with a comprehensive analysis of your current situation and requirements.</p>
+                        <p>I start with a thorough analysis of your current situation and requirements.</p>
                         <ul>
                             <li>Technical assessment of existing systems</li>
                             <li>Performance bottleneck identification</li>
@@ -62,7 +63,7 @@ to the highest quality standards. Here's how we'll work together:</p>
                     <div class="step-number">3</div>
                     <div class="step-content">
                         <h3>Development Sprints</h3>
-                        <p>Agile development with regular check-ins and transparent progress tracking.</p>
+                        <p>Iterative development with regular check-ins and transparent progress tracking.</p>
                         <ul>
                             <li>2-week development sprints</li>
                             <li>Regular progress updates and demos</li>
@@ -118,11 +119,11 @@ to the highest quality standards. Here's how we'll work together:</p>
                 <div class="benefits-grid">
                     <div class="benefit-item">
                         <h3>Transparency</h3>
-                        <p>Regular updates and clear communication throughout the entire process. You'll always know exactly what's happening and when.</p>
+                        <p>Regular updates and clear communication throughout, straight from the person writing the code. You'll always know exactly what's happening and when.</p>
                     </div>
                     <div class="benefit-item">
                         <h3>Quality Assurance</h3>
-                        <p>Multiple layers of testing and review ensure your solution meets the highest standards of quality and reliability.</p>
+                        <p>Testing and review at every layer, because I'm also the one who gets the call when something breaks at 9 AM.</p>
                     </div>
                     <div class="benefit-item">
                         <h3>Risk Mitigation</h3>
@@ -137,7 +138,7 @@ to the highest quality standards. Here's how we'll work together:</p>
             
             <div class="cta-section">
                 <h2>Ready to Get Started?</h2>
-                <p>Let's discuss your project and see how this process can work for you.</p>
+                <p>Tell me what you're building and where it hurts. First call is free and I'll tell you honestly if I'm the wrong person for it.</p>
                 <a href="mailto:office@eterniasolutions.io" class="cta-primary">Book a Free Discovery Call</a>
             </div>
         </div>

@@ -1,38 +1,35 @@
 ---
 layout: home
-title: Eternia Solutions LLC | Enterprise Software Architecture & Development
-description: Premium software architecture and development services. Expert API design, backend systems, and database engineering for ambitious enterprises.
+title: Eternia Solutions LLC | Software Architecture & Backend Development
+description: Independent software architect. API design, backend systems, and database engineering for companies that need one accountable engineer, not an agency.
 ---
 
 <section class="hero">
     <div class="container">
         <div class="hero-content">
-            <div class="hero-badge">Enterprise Software Solutions</div>
-            <h1>Building the Infrastructure Behind Tomorrow's Leading Companies</h1>
-            <p>We architect and develop mission-critical backend systems, APIs, and databases that power enterprise growth. From startup to scale.</p>
+            <div class="hero-badge">Independent Software Architect</div>
+            <h1>Backend Systems Built to Stay in Production</h1>
+            <p>I design and build the APIs, databases, and backend services that a business runs on. One architect, directly accountable for the system — no account managers, no handoffs, no layers between your problem and the person solving it.</p>
             <div class="cta-group">
                 <a href="#contact" class="cta-button cta-primary">
                     Start a Project
                     <span>→</span>
                 </a>
                 <a href="/founder" class="cta-button cta-secondary">
-                    Meet the Founder
+                    About Me
                 </a>
             </div>
             <div class="trust-stats">
                 <div class="stat-item">
                     <span class="stat-number">15+</span>
-                    <span class="stat-label">Years Building Systems</span>
-                </div>
-                <div class="stat-item">
-                    <span class="stat-number">100+</span>
-                    <span class="stat-label">Projects Delivered</span>
-                </div>
-                <div class="stat-item">
-                    <span class="stat-number">99.9%</span>
-                    <span class="stat-label">Uptime Achieved</span>
+                    <span class="stat-label">Years building backend systems, in production</span>
                 </div>
             </div>
+            <ul class="hero-credentials">
+                <li>National-scale ERP running in production, maintained for years</li>
+                <li>Public-sector governance platform</li>
+                <li>Open source Laravel package, publicly maintained</li>
+            </ul>
         </div>
     </div>
 </section>
@@ -40,40 +37,40 @@ description: Premium software architecture and development services. Expert API 
 <section id="services" class="services">
     <div class="container">
         <div class="section-header">
-            <span class="section-badge">What We Do</span>
+            <span class="section-badge">What I Do</span>
             <h2>Engineered for Performance</h2>
-            <p>Specialized expertise in the technologies that matter for enterprise-grade applications</p>
+            <p>Focused expertise in the parts of the stack where systems actually fail</p>
         </div>
         <div class="services-grid">
             <div class="service-card">
                 <div class="service-icon">⚡</div>
                 <h3>API Architecture & Development</h3>
-                <p>Design and build RESTful, GraphQL, and real-time APIs that serve millions of requests. Optimized for performance, security, and developer experience.</p>
+                <p>Design and build RESTful, GraphQL, and real-time APIs. Optimized for performance, security, and the developers who have to consume them.</p>
             </div>
             <div class="service-card">
                 <div class="service-icon">🏗️</div>
                 <h3>Software Architecture</h3>
-                <p>Strategic system design from the ground up. Microservices, monoliths, serverless—we choose the right architecture for your business requirements and scale.</p>
+                <p>Strategic system design from the ground up. Microservices, monoliths, serverless — I pick the architecture that matches your business requirements and your team's size, not the one that reads best in a slide deck.</p>
             </div>
             <div class="service-card">
                 <div class="service-icon">💾</div>
                 <h3>Database Engineering</h3>
-                <p>PostgreSQL, MySQL, NoSQL design and optimization. We build data layers that handle growth without breaking. Query optimization, indexing strategies, and replication architecture.</p>
+                <p>PostgreSQL, MySQL, NoSQL design and optimization. Data layers that handle growth without breaking: query optimization, indexing strategies, and replication architecture.</p>
             </div>
             <div class="service-card">
                 <div class="service-icon">🔧</div>
                 <h3>Backend Development</h3>
-                <p>Modern PHP and Node.js development with Laravel, Symfony, Express, and NestJS. Clean code, comprehensive testing, and deployment pipelines included.</p>
+                <p>Modern PHP and Node.js development with Laravel, Symfony, Express, and NestJS. Clean code, real test coverage, and deployment pipelines included.</p>
             </div>
             <div class="service-card">
                 <div class="service-icon">🔌</div>
                 <h3>System Integration</h3>
-                <p>Connect your systems seamlessly. Third-party API integration, legacy system modernization, and data synchronization across platforms.</p>
+                <p>Connecting systems that were never designed to talk to each other. Third-party API integration, legacy modernization, and data synchronization across platforms.</p>
             </div>
             <div class="service-card">
                 <div class="service-icon">🔍</div>
                 <h3>Technical Consulting</h3>
-                <p>Architecture reviews, performance audits, security assessments. Get expert guidance on the technical decisions that will define your product's future.</p>
+                <p>Architecture reviews, performance audits, security assessments. A second opinion from someone who has had to live with these decisions long-term.</p>
             </div>
         </div>
     </div>
@@ -84,7 +81,7 @@ description: Premium software architecture and development services. Expert API 
         <div class="section-header">
             <span class="section-badge">Technology Stack</span>
             <h2>Modern Tools, Proven Results</h2>
-            <p>We work with the technologies that deliver enterprise reliability</p>
+            <p>The stack I work in day to day</p>
         </div>
         <div class="tech-grid">
             <div class="tech-category">
@@ -148,31 +145,19 @@ description: Premium software architecture and development services. Expert API 
 <section id="about" class="about">
     <div class="container">
         <div class="section-header">
-            <span class="section-badge">About Us</span>
+            <span class="section-badge">About</span>
             <h2>Eternia Solutions LLC</h2>
         </div>
         <div class="about-content">
-            <p>We are a US-based software development firm specializing in enterprise backend systems and API development.</p>
+            <p>Eternia Solutions is a one-person consultancy. I'm Simo Jaković — the architect, the engineer, and the person who answers the phone.</p>
 
-            <p>Since our founding, we've worked with companies across fintech, e-commerce, healthcare, and SaaS industries—building the invisible infrastructure that powers their growth. Our approach combines deep technical expertise with a focus on business outcomes.</p>
+            <p>That is deliberate. On the work I take, the value is in one engineer who understands the whole system and stays accountable for it: the schema, the API contract, the deployment, and the incident three months after launch. You are not handed to a junior after the sales call, because there is no sales call and no junior.</p>
 
-            <p>We don't do surface-level implementations. Every system we build is architected for performance, security, and long-term maintainability. We're the team you bring in when quality can't be compromised.</p>
+            <p>My background is backend and infrastructure — enterprise resource planning, public-sector governance systems, and the integrations that hold them together. Systems that people are contractually obliged to use every working day, where downtime is a phone call and a bad schema decision follows you for years.</p>
 
-            <p>Whether you're launching a new product, scaling an existing platform, or modernizing legacy systems, we bring 15+ years of hands-on experience solving complex backend challenges.</p>
-        </div>
-        <div class="stats-grid">
-            <div class="stat-box">
-                <span class="stat-number">15+</span>
-                <span class="stat-label">Years in Software Engineering</span>
-            </div>
-            <div class="stat-box">
-                <span class="stat-number">100+</span>
-                <span class="stat-label">Successful Projects</span>
-            </div>
-            <div class="stat-box">
-                <span class="stat-number">24/7</span>
-                <span class="stat-label">Support Available</span>
-            </div>
+            <p>I don't do surface-level implementations, and I take a limited number of clients at a time so each one gets real attention. If you're launching a product, scaling a platform, or untangling a legacy system, I bring 15+ years of hands-on experience with exactly those problems.</p>
+
+            <p>Eternia Solutions LLC is registered in Wyoming, USA. I work from Belgrade, Serbia, on Central European Time, which overlaps the US Eastern morning most of the working day.</p>
         </div>
     </div>
 </section>

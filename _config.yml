@@ -1,12 +1,12 @@
-title: Eternia Solutions LLC - Professional Software Architecture & API Development
+title: Eternia Solutions LLC - Software Architecture & API Development
 email: office@eterniasolutions.io
 description: >-
-  Professional software architecture and development services specializing in API design,
+  Independent software architecture and development, specializing in API design,
   system architecture, PHP, Node.js, PostgreSQL, MySQL, NoSQL, and network engineering.
-  Enterprise-grade solutions for businesses across the United States.
+  One accountable engineer, working with clients in the US and Europe.
 baseurl: ""
 url: "https://eterniasolutions.io"
-author: "Eternia Solutions LLC"
+author: "Simo Jakovic"
 keywords: "software architecture, API development, API design, backend development, PHP development, Node.js development, PostgreSQL, MySQL, NoSQL, database engineering, system integration, enterprise software, network engineering, software consulting"
 
 # Social media
@@ -22,7 +22,7 @@ google_analytics: # Add your GA tracking ID here
 google_verification: # Add your Google verification code here
 
 # Site settings
-timezone: America/New_York
+timezone: Europe/Belgrade
 lang: en_US
 
 # Jekyll settings
@@ -43,7 +43,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      author: "Eternia Solutions LLC"
+      author: "Simo Jakovic"
 
 # Plugins
 plugins:
