@@ -1,34 +1,28 @@
 ---
 layout: home
-title: Eternia Solutions LLC | Software Architecture & Backend Development
-description: Independent software architect. API design, backend systems, and database engineering for companies that need one accountable engineer, not an agency.
+title: Eternia Solutions LLC | Software Development & IT Services, Wyoming
+description: Eternia Solutions LLC is a small software development and IT services company registered in Wyoming. API development, backend systems, database engineering, and system integration.
 ---
 
 <section class="hero">
     <div class="container">
         <div class="hero-content">
-            <div class="hero-badge">Independent Software Architect</div>
+            <div class="hero-badge">Software Development &amp; IT Services</div>
             <h1>Backend Systems Built to Stay in Production</h1>
-            <p>I design and build the APIs, databases, and backend services that a business runs on. One architect, directly accountable for the system — no account managers, no handoffs, no layers between your problem and the person solving it.</p>
+            <p>Eternia Solutions designs and builds the APIs, databases, and backend services that a business runs on. A small, focused team that takes on a limited number of projects and sees each one through to production.</p>
             <div class="cta-group">
                 <a href="#contact" class="cta-button cta-primary">
                     Start a Project
                     <span>→</span>
                 </a>
-                <a href="/founder" class="cta-button cta-secondary">
-                    About Me
+                <a href="/process" class="cta-button cta-secondary">
+                    How We Work
                 </a>
             </div>
-            <div class="trust-stats">
-                <div class="stat-item">
-                    <span class="stat-number">15+</span>
-                    <span class="stat-label">Years building backend systems, in production</span>
-                </div>
-            </div>
             <ul class="hero-credentials">
-                <li>National-scale ERP running in production, maintained for years</li>
-                <li>Public-sector governance platform</li>
-                <li>Open source Laravel package, publicly maintained</li>
+                <li>Backend, API, and database engineering</li>
+                <li>System integration and legacy modernization</li>
+                <li>Registered in Wyoming, USA</li>
             </ul>
         </div>
     </div>
@@ -37,7 +31,7 @@ description: Independent software architect. API design, backend systems, and da
 <section id="services" class="services">
     <div class="container">
         <div class="section-header">
-            <span class="section-badge">What I Do</span>
+            <span class="section-badge">What We Do</span>
             <h2>Engineered for Performance</h2>
             <p>Focused expertise in the parts of the stack where systems actually fail</p>
         </div>
@@ -50,7 +44,7 @@ description: Independent software architect. API design, backend systems, and da
             <div class="service-card">
                 <div class="service-icon">🏗️</div>
                 <h3>Software Architecture</h3>
-                <p>Strategic system design from the ground up. Microservices, monoliths, serverless — I pick the architecture that matches your business requirements and your team's size, not the one that reads best in a slide deck.</p>
+                <p>Strategic system design from the ground up. Microservices, monoliths, serverless — we pick the architecture that matches your business requirements and your team's size, not the one that reads best in a slide deck.</p>
             </div>
             <div class="service-card">
                 <div class="service-icon">💾</div>
@@ -70,7 +64,7 @@ description: Independent software architect. API design, backend systems, and da
             <div class="service-card">
                 <div class="service-icon">🔍</div>
                 <h3>Technical Consulting</h3>
-                <p>Architecture reviews, performance audits, security assessments. A second opinion from someone who has had to live with these decisions long-term.</p>
+                <p>Architecture reviews, performance audits, security assessments. A second opinion from people who have had to live with these decisions long-term.</p>
             </div>
         </div>
     </div>
@@ -81,7 +75,7 @@ description: Independent software architect. API design, backend systems, and da
         <div class="section-header">
             <span class="section-badge">Technology Stack</span>
             <h2>Modern Tools, Proven Results</h2>
-            <p>The stack I work in day to day</p>
+            <p>The stack we work in day to day</p>
         </div>
         <div class="tech-grid">
             <div class="tech-category">
@@ -149,15 +143,13 @@ description: Independent software architect. API design, backend systems, and da
             <h2>Eternia Solutions LLC</h2>
         </div>
         <div class="about-content">
-            <p>Eternia Solutions is a one-person consultancy. I'm Simo Jaković — the architect, the engineer, and the person who answers the phone.</p>
+            <p>Eternia Solutions LLC is a small software development and IT services company registered in Wyoming, USA. We build and maintain backend systems, APIs, and integrations for businesses in the United States and Europe.</p>
 
-            <p>That is deliberate. On the work I take, the value is in one engineer who understands the whole system and stays accountable for it: the schema, the API contract, the deployment, and the incident three months after launch. You are not handed to a junior after the sales call, because there is no sales call and no junior.</p>
+            <p>Our background is in systems that organizations depend on every working day: enterprise resource planning, business platforms, and the integrations that hold them together. That kind of work shapes how we engineer: downtime is a phone call, and a bad schema decision follows a project for years.</p>
 
-            <p>My background is backend and infrastructure — enterprise resource planning, public-sector governance systems, and the integrations that hold them together. Systems that people are contractually obliged to use every working day, where downtime is a phone call and a bad schema decision follows you for years.</p>
+            <p>We keep the company deliberately small and take on a limited number of clients at a time, so every engagement gets real attention from the engineers doing the work. There are no account managers or hand-offs between the sales conversation and the people building the system.</p>
 
-            <p>I don't do surface-level implementations, and I take a limited number of clients at a time so each one gets real attention. If you're launching a product, scaling a platform, or untangling a legacy system, I bring 15+ years of hands-on experience with exactly those problems.</p>
-
-            <p>Eternia Solutions LLC is registered in Wyoming, USA. I work from Belgrade, Serbia, on Central European Time, which overlaps the US Eastern morning most of the working day.</p>
+            <p>Whether you are launching a product, scaling a platform, or untangling a legacy system, we bring hands-on experience with exactly those problems.</p>
         </div>
     </div>
 </section>
