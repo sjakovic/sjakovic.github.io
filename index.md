@@ -14,7 +14,7 @@ description: A small team that builds and fixes backends in Go, Node.js and PHP.
                 <a href="#work" class="cta-button cta-secondary">See what we've built</a>
             </div>
             <ul class="hero-credentials">
-                <li>Production backends since 2009</li>
+                <li>Platforms running across five countries</li>
                 <li>US company, team in Europe</li>
                 <li>You talk to the people writing the code</li>
             </ul>
@@ -104,7 +104,7 @@ description: A small team that builds and fixes backends in Go, Node.js and PHP.
                 <span class="founder-label">Founder</span>
                 <h3>Simo Jakovic</h3>
                 <p class="founder-role">Software Architect</p>
-                <p>I have been writing backend code for a living since 2009, mostly on systems people depend on every working day: tolling and billing, trading, telecom APIs, public-sector software. I lead every project myself, from the first call to production, with two developers I have worked with for years.</p>
+                <p>I have spent around fifteen years writing backend code, mostly on systems people depend on every working day: tolling and billing, trading, telecom APIs, public-sector software. I lead every project myself, from the first call to production, with two developers I have worked with for years.</p>
                 <a href="https://www.linkedin.com/in/simojakovic/" target="_blank" rel="noopener" class="founder-link">LinkedIn &rarr;</a>
             </div>
         </div>
