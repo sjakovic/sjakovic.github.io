@@ -93,7 +93,7 @@ img { max-width: 100%; display: block; }
 .about-content p { font-size: 1.15rem; color: var(--text-2); line-height: 1.65; margin-bottom: 22px; }
 .about-content p:first-of-type { font-size: 1.4rem; color: var(--text); font-weight: 600; letter-spacing: -0.02em; line-height: 1.4; }
 .founder-card { max-width: 760px; margin: 48px auto 0; display: flex; gap: 32px; align-items: flex-start; background: var(--bg-alt); border: 1px solid var(--line); border-radius: var(--radius); padding: 36px; }
-.founder-photo { width: 120px; height: 120px; border-radius: 50%; object-fit: cover; flex-shrink: 0; }
+.founder-photo { width: 150px; height: 150px; border-radius: 12px; object-fit: cover; flex-shrink: 0; }
 .founder-label { font-size: 0.82rem; font-weight: 600; color: var(--muted); text-transform: uppercase; letter-spacing: 0.04em; }
 .founder-text h3 { font-family: var(--head); font-size: 1.6rem; font-weight: 700; letter-spacing: -0.025em; margin: 4px 0 2px; }
 .founder-role { color: var(--muted); margin-bottom: 12px; }
