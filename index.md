@@ -99,7 +99,7 @@ description: A small team that builds and fixes backends in Go, Node.js and PHP.
             <h2>Who you'd be working with</h2>
         </div>
         <div class="founder-card">
-            <img src="{{ '/assets/img/founder.jpg' | relative_url }}?v=2" alt="Simo Jakovic" class="founder-photo">
+            <img src="{{ '/assets/img/simo.jpg' | relative_url }}" alt="Simo Jakovic" class="founder-photo" style="height:auto;object-fit:contain">
             <div class="founder-text">
                 <span class="founder-label">Founder</span>
                 <h3>Simo Jakovic</h3>
